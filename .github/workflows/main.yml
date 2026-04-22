@@ -16,7 +16,7 @@ jobs:
      with:
       node-version: 22.x
    - name: npm install
-     run: npm insatll
+     run: npm install
    - name: Buid Anguler
      run: npm run build
    
