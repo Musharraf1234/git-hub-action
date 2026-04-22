@@ -9,5 +9,16 @@ jobs:
   runs-on: ubuntu-latest
 
   steps:
-   - name: Greeting
-     run: echo "Hellow"
+   - name: Check Repo
+     uses: actions/checkout@v6.0.2
+   - name: Node Setup
+     uses: actions/setup-node@v6.4.0
+     with:
+      node-version: 22.x
+   - name: npm install
+     run: npm insatll
+   - name: Buid Anguler
+     run: npm run build
+   
+       
+   
