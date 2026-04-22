@@ -8,6 +8,6 @@ jobs:
  new-jobs:
   runs-on: ubuntu-latest
 
-steps:
- - name: Greeting
-   run: echo "Hellow"
+  steps:
+   - name: Greeting
+     run: echo "Hellow"
